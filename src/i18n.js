@@ -19,7 +19,7 @@ i18n
     lng: 'en',
     backend: {
       /* translation file path */
-      loadPath: '/assets/i18n/{{ns}}/{{lng}}.json'
+      loadPath: '%PUBLIC_URL%/assets/i18n/{{ns}}/{{lng}}.json'
     },
     fallbackLng: 'en',
     debug: true,
@@ -31,5 +31,4 @@ i18n
       escapeValue: false, // not needed for react as it escapes by default
     },
   });
-
 export default i18n;
