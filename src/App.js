@@ -1,17 +1,18 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import logo from './img/moi.JPG';
 import './App.scss';
 import './Animation.scss';
 import SimpleSlider from './Slider'
 
+
 function App() {
   return (
     <div className="App">
       <div className="pane">
-        <div className="block identity">
+        <div className="block">
           <img src={logo} className="rounded" alt="logo" />
-          <p>Jérôme Commaret</p>
-          <p>Fullstack Developer</p>
+          <p className="id">Jérôme Commaret</p>
+          <p className="id">Fullstack Developer</p>
         </div>
         
         <div className="block">
@@ -44,7 +45,6 @@ function App() {
           <p>🎨 : Enjoy museum, street Arts</p>
           <p>🎭 : Played tragedy and comedy </p>
         </div>
-        
         <SimpleSlider></SimpleSlider> 
       </div>
     </div>

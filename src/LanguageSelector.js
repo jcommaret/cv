@@ -2,7 +2,6 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import './i18n';
 
-
 const LanguageSelector = () => {
   const { t, i18n } = useTranslation()
 
