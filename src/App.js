@@ -1,9 +1,8 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import logo from './img/moi.JPG';
 import './App.scss';
 import './Animation.scss';
 import SimpleSlider from './Slider'
-
 
 function App() {
   return (
@@ -14,11 +13,10 @@ function App() {
           <p className="id">Jérôme Commaret</p>
           <p className="id">Fullstack Developer</p>
         </div>
-        
+
         <div className="block">
           <h3>Background</h3>  
           <p>🎓 : 2010 <b>-</b><a href="http://www.hetic.net">Hétic</a>- MSC - Master : Information Technology Management and Engineering</p>
-          <p>📚 : 2021 (will have certificate)<b>-</b> <a href="https://www.edx.org">Harvard - Technology Entrepreneurship: Lab to Market</a></p>
           <p>📚 : 2021 (will have certificate)<b>-</b> <a href="https://www.edx.org">Georgia Tech - Innovation Leadership</a></p>
           <p>📝 : Since 2016 : Blogging about <a href="https://medium.com/meteor-in-french">Meteor</a></p>
           <p>👨‍💻 : Meteor, if not : Wordpress, Symfony, React.js, React-native, Angular...</p>
