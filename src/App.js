@@ -17,9 +17,9 @@ function App() {
         <div className="block">
           <h3>Background</h3>  
           <p>📚 : 2021 <b>-</b> <a href="https://www.edx.org">Georgia Tech - Innovation Leadership</a></p>
-          <p>🎓 : 2010 <b>-</b><a href="http://www.hetic.net">Hétic</a>- MSC - Master : Information Technology Management and Engineering</p>
-          <p>👨‍💻 : Meteor, if not : Wordpress, Symfony, React.js, React-native, Angular...</p>
-          <p>⚙️ : TypeScript, Javascript, jQuery, Git, Gulp, Webpack, php, scss, sass, all struff like that</p>
+          <p>🎓 : 2010 <b>-</b> <a href="http://www.hetic.net">Hétic</a>- MSC - Master : Information Technology Management and Engineering</p>
+          <p>👨‍💻 : Wordpress, Symfony, React, Angular...</p>
+          <p>⚙️ : TypeScript, Javascript, jQuery, Git, Gulp, Webpack, PHP, Sass, all struff like that</p>
         </div>
 
         <div className="block">  
