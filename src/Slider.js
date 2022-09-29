@@ -26,7 +26,7 @@ export default function SimpleSlider() {
                 <div>
                     <figure>
                         <blockquote>
-                            <p><cite>"Ce fut un plaisir de travailler avec Jerome dans le cadre de la plateforme Preditt. Ses compétences et son écoute ont permis d'atteindre nos objectifs !"</cite></p>
+                           <p><cite>"Ce fut un plaisir de travailler avec Jerome dans le cadre de la plateforme Preditt. Ses compétences et son écoute ont permis d'atteindre nos objectifs !"</cite></p>
                         </blockquote>
                         <figcaption>Julien - CEO - Preditt</figcaption>
                     </figure>
